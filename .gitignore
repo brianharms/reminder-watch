@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+# Xcode / Swift
+build/
+build-debug/
+build-release/
+build-device/
+build-watch/
+DerivedData/
+.build/
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Node
+node_modules/
+# Secrets & certs — NEVER commit
+.env
+.env.*
+certs/
+*.pem
+*.key
+*.p12
+credentials.json
+# Runtime / logs / state
+*.log
+*.pid
+*.jsonl
+*-seen.txt
+state/
+# Internal dev notes — not for public
+SESSION_LOG.md
+SESSION_PROGRESS.md
+SESSION-LOG.md
+CLAUDE.md
+.claude/
+.superpowers/
+.superpowers
+docs/superpowers/
+project.json
+scene.js
